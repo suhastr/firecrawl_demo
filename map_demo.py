@@ -13,7 +13,7 @@ from firecrawl import AsyncFirecrawlApp
 async def main():
     app = AsyncFirecrawlApp(api_key)
     response = await app.map_url(
-        url='https://suhastr.github.io/',
+        url='website url',
         include_subdomains=True
     )
     print(response)
