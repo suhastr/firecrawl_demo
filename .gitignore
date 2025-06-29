@@ -38,6 +38,7 @@ results.txt
 # Database files
 *.sqlite3
 *.db
+*.txt
 
 # Uploaded files or media (if applicable)
 media/
