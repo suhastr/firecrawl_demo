@@ -1,5 +1,5 @@
 # firecrawl_demo
-This repo shows how to use firecrawl, which crawls webpages and returns results in markdown format
+This repo shows how to use firecrawl, which crawls webpages and returns results in markdown format. its helpful for generating data for llms and so on.
 
 # Steps
 
