@@ -59,7 +59,7 @@ This repo shows how to use firecrawl, which crawls webpages and returns results 
     )
     
     llm_extraction_result = app.scrape_url(
-        'https://firecrawl.dev',
+        'website url',
         formats=["json"],
         json_options=json_config,
         only_main_content=False,
@@ -78,7 +78,7 @@ This repo shows how to use firecrawl, which crawls webpages and returns results 
     app = FirecrawlApp(api_key="fc-YOUR_API_KEY")
     
     # Scrape a website:
-    scrape_result = app.scrape_url('firecrawl.dev', 
+    scrape_result = app.scrape_url('website url', 
         formats=['markdown', 'html'], 
         actions=[
             {"type": "wait", "milliseconds": 2000},
