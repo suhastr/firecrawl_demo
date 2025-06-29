@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+.myenv/
+# You might also include specific virtual environment names if you use a consistent naming convention, e.g., myproject_env/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+
+# Database files
+*.sqlite3
+*.db
+
+# Uploaded files or media (if applicable)
+media/
+uploads/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# PyInstaller / Nuitka
+*.spec
+build/
+dist/
