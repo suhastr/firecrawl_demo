@@ -33,6 +33,7 @@ Thumbs.db
 *.log
 *.tmp
 tmp/
+results.txt
 
 # Database files
 *.sqlite3
