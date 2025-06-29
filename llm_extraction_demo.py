@@ -19,7 +19,7 @@ json_config = JsonConfig(
 )
 
 llm_extraction_result = app.scrape_url(
-    'https://suhastr.github.io/',
+    'website url',
     formats=["json"],
     json_options=json_config,
     only_main_content=False,
