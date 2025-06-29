@@ -16,6 +16,7 @@ build/
 venv/
 env/
 .myenv/
+.env
 # You might also include specific virtual environment names if you use a consistent naming convention, e.g., myproject_env/
 
 # Editor-specific files
