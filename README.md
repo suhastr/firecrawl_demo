@@ -28,7 +28,7 @@ This repo shows how to use firecrawl, which crawls webpages and returns results 
    app = FirecrawlApp(api_key="fc-YOUR_API_KEY")
   
    # Crawl a website:
-   crawl_result = app.crawl_url('https://firecrawl.dev',limit=10,scrape_options=ScrapeOptions(formats=['markdown', 'html']),)
+   crawl_result = app.crawl_url('website url',limit=10,scrape_options=ScrapeOptions(formats=['markdown', 'html']),)
    print(crawl_result)
    ```
 
